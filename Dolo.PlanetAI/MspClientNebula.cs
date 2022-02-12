@@ -11,7 +11,7 @@ using ProtoBuf;
 
 namespace Dolo.PlanetAI;
 
-public class MspClientNebula
+internal class MspClientNebula
 {
 	public static async Task<string> GetRecaptchaTokenAsync()
 	{

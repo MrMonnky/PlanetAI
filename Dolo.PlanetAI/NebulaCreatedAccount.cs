@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace Dolo.PlanetAI;
 
-public class NebulaCreatedAccount
+internal class NebulaCreatedAccount
 {
 	[JsonProperty("success")]
 	public bool Success { get; set; }
